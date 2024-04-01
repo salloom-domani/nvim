@@ -3,7 +3,7 @@
 -- Add any additional keymaps here
 
 -- Additional yank operations
-vim.keymap.set("n", "<leader>yf", "ggyG<C-o>", { desc = "[Y]ank a [F]ile" })
+vim.keymap.set("n", "<leader>fy", "ggyG", { desc = "[F]ile [Y]ank " })
 vim.keymap.set("n", "<leader>fv", "ggVG", { desc = "[F]ile [V] select " })
 vim.keymap.set("n", "<leader>y", '"+y', { desc = "Yank to clipboard" })
 vim.keymap.set("v", "<leader>y", '"+y', { desc = "Yank selected to clipboard" })
