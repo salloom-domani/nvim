@@ -4,9 +4,10 @@ local logo = [[
 ▄▀▀▀█▄▐█▀▀█ ██   ██    ▄█▀▄  ▄█▀▄ ▐█ ▌▐▌▐█ 
 ▐█▄ ▐█▐█  ▐▌▐█▌▐▌▐█▌▐▌▐█▌ ▐▌▐█▌ ▐▌██ ██▌▐█▌
  ▀▀▀▀  ▀  ▀  ▀▀▀  ▀▀▀  ▀█▄▀  ▀█▄▀ ▀▀  █ ▀▀▀
+
  [@salloom-domani]
 ]]
-logo = string.rep("\n", 8) .. logo .. "\n\n"
+logo = string.rep("\n", 6) .. logo .. string.rep("\n", 1)
 
 return {
   "nvimdev/dashboard-nvim",
