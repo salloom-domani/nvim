@@ -12,7 +12,6 @@
     "lazyvim.plugins.extras.lang.typescript",
     "lazyvim.plugins.extras.ui.edgy",
     "lazyvim.plugins.extras.ui.mini-animate",
-    "lazyvim.plugins.extras.util.dot"
   ],
   "news": {
     "NEWS.md": "6520"
