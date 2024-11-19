@@ -1,4 +1,9 @@
-local logo = [[
+return {
+  "folke/snacks.nvim",
+  opts = {
+    dashboard = {
+      preset = {
+        header = [[
                                                                     
       ████ ██████           █████      ██                     
      ███████████             █████                             
@@ -9,16 +14,8 @@ local logo = [[
 ██████  █████████████████████ ████ █████ █████ ████ ██████ 
 
  [@salloom-domani]
-]]
-logo = string.rep("\n", 4) .. logo .. string.rep("\n", 1)
-
-return {
-  "nvimdev/dashboard-nvim",
-  event = "VimEnter",
-  opts = {
-    config = {
-      header = vim.split(logo, "\n"),
+]],
+      },
     },
   },
-  dependencies = { { "nvim-tree/nvim-web-devicons" } },
 }
