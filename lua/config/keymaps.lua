@@ -7,3 +7,6 @@ vim.keymap.set("n", "<leader>fy", "ggyG", { desc = "[F]ile [Y]ank " })
 vim.keymap.set("n", "<leader>fv", "ggVG", { desc = "[F]ile [V] select " })
 vim.keymap.set("n", "<leader>y", '"+y', { desc = "Yank to clipboard" })
 vim.keymap.set("v", "<leader>y", '"+y', { desc = "Yank selected to clipboard" })
+
+-- Dadbod UI
+vim.keymap.set("n", "<leader>db", "<CMD>DBUIToggle<CR>", { desc = "Dadbod UI" })
